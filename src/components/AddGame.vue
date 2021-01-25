@@ -46,8 +46,8 @@
             ></v-slider>
 
             <v-menu
-                ref="menu1"
-                v-model="menu1"
+                ref="releaseDateCalendar"
+                v-model="releaseDateCalendar"
                 :close-on-content-click="false"
                 transition="scale-transition"
                 offset-y
@@ -67,7 +67,7 @@
               <v-date-picker
                   v-model="gameRequest.releaseDate"
                   no-title
-                  @input="menu1 = false"
+                  @input="releaseDateCalendar = false"
               ></v-date-picker>
             </v-menu>
             <v-file-input
@@ -107,7 +107,7 @@ export default {
       publisher: '',
     },
     boxArt: null,
-    menu1: false,
+    releaseDateCalendar: false,
     platforms: [
       'PS4',
       'PS5'
@@ -135,7 +135,9 @@ export default {
               'Content-Type': 'multipart/form-date'
             }
           })
-          .then(() => console.log('success!'))
+          .then(() => this.$router.push({
+            name: 'games'
+          }))
           .catch(err => console.error(err))
     }
   }

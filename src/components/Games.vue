@@ -24,13 +24,10 @@ export default {
   },
   async mounted() {
     this.games = (await api().get('v1/game')).data
-    this.games.forEach(game => console.log(game))
   }
 }
 </script>
 
 <style scoped>
-.v-image__image{
-  background-size:100% 100%;
-}
+
 </style>
