@@ -6,14 +6,16 @@
       src="https://gamecrate.com/sites/default/files/field/image/PS5Header.jpg"
   >
     <div class="d-flex align-center">
-      <v-img
-          class="shrink mr-2"
-          contain
-          dark
-          src="../assets/logo.png"
-          transition="scale-transition"
-          width="70"
-      />
+      <router-link :to="{name: 'games'}">
+        <v-img
+            class="shrink mr-2"
+            contain
+            dark
+            src="../assets/logo.png"
+            transition="scale-transition"
+            width="70"
+        />
+      </router-link>
     </div>
 
     <v-spacer></v-spacer>
