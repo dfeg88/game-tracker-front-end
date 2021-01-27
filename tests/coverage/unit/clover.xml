@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1611752342320" clover="3.2.0">
-  <project timestamp="1611752342320" name="All files">
-    <metrics statements="17" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="6" elements="26" coveredelements="18" complexity="0" loc="17" ncloc="17" packages="5" files="7" classes="7"/>
+<coverage generated="1611757546089" clover="3.2.0">
+  <project timestamp="1611757546089" name="All files">
+    <metrics statements="18" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="6" elements="27" coveredelements="18" complexity="0" loc="18" ncloc="18" packages="5" files="7" classes="7"/>
     <package name="src">
-      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="App.vue" path="/Users/daniel.fegan/workspaces/practice/game-tracker-front-end/src/App.vue">
-        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="51" count="0" type="stmt"/>
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
       </file>
       <file name="router.js" path="/Users/daniel.fegan/workspaces/practice/game-tracker-front-end/src/router.js">
         <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
