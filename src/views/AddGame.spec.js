@@ -4,20 +4,14 @@ import Vuetify from "vuetify";
 
 describe('game creation', () => {
   let wrapper;
-  let mockSave;
-  let vuetify;
-
-  jest.mock('axios', () => ({
-    post: Promise.resolve()
-  }))
+  const mockSave = jest.spyOn(AddGame.methods, 'saveGame');
+  const vuetify = new Vuetify();
+  const localVue = createLocalVue();
 
   beforeEach(() => {
-    vuetify = new Vuetify();
-    mockSave = jest.spyOn(AddGame.methods, 'saveGame');
-
     wrapper = mount(AddGame, {
-      localVue: createLocalVue(),
-      vuetify,
+      localVue,
+      vuetify
     });
 
   })

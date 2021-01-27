@@ -3,7 +3,7 @@
       <v-flex xs12 sm6 md4 lg3
               v-for="(game, i) in games"
               :key="i">
-        <Game :game="game"></Game>
+        <Game :id="game.name + '-' + game.platform" :game="game"></Game>
       </v-flex>
   </v-layout>
 </template>
