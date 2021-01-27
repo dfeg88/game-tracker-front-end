@@ -11,28 +11,32 @@
             Add Game
           </h1>
 
-          <v-form @submit.prevent="saveGame">
+          <v-form id="create" @submit.prevent="saveGame">
             <v-text-field
                 v-model="gameRequest.name"
                 label="Name"
                 required
+                data-test="name"
             ></v-text-field>
             <v-select
                 v-model="gameRequest.platform"
                 label="Platform"
                 :items=platforms
                 required
+                data-test="platform"
             ></v-select>
             <v-text-field
                 v-model="gameRequest.publisher"
                 label="Publisher"
                 required
+                data-test="publisher"
             ></v-text-field>
             <v-select
                 v-model="gameRequest.genre"
                 label="Genre"
                 :items=genres
                 required
+                data-test="genre"
             ></v-select>
             <br>
             <v-slider
@@ -43,6 +47,7 @@
                 :thumb-size="18"
                 min="1"
                 max="32"
+                data-test="numberOfPlayers"
             ></v-slider>
 
             <v-menu
@@ -62,6 +67,7 @@
                     prepend-icon="mdi-calendar"
                     v-bind="attrs"
                     v-on="on"
+                    data-test="release-date"
                 ></v-text-field>
               </template>
               <v-date-picker
@@ -77,10 +83,12 @@
                 prepend-icon="mdi-camera"
                 hint=".jpg or .png only"
                 persistent-hint
+                data-test="box-art"
             ></v-file-input>
             <br>
             <v-btn
                 type="submit"
+                id="submit"
             >
               Submit
             </v-btn>

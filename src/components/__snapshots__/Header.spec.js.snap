@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders expect HTML 1`] = `
+<v-app-bar-stub
+  app="true"
+  color="primary"
+  dark="true"
+  extensionheight="48"
+  src="https://gamecrate.com/sites/default/files/field/image/PS5Header.jpg"
+  tag="header"
+  value="true"
+>
+  <div
+    class="d-flex align-center"
+  >
+    <v-img-stub
+      class="shrink mr-2"
+      contain="true"
+      dark="true"
+      options="[object Object]"
+      position="center center"
+      src="../assets/logo.png"
+      transition="scale-transition"
+      width="70"
+    />
+  </div>
+   
+  <v-spacer-stub />
+   
+  <v-btn-stub
+    activeclass=""
+    tag="button"
+    text="true"
+    type="button"
+  >
+    <router-link-stub
+      ariacurrentvalue="page"
+      event="click"
+      tag="a"
+      to="[object Object]"
+    >
+      My Games
+    </router-link-stub>
+  </v-btn-stub>
+   
+  <v-btn-stub
+    activeclass=""
+    tag="button"
+    text="true"
+    type="button"
+  >
+    <router-link-stub
+      ariacurrentvalue="page"
+      event="click"
+      tag="a"
+      to="[object Object]"
+    >
+      Add Game
+    </router-link-stub>
+  </v-btn-stub>
+</v-app-bar-stub>
+`;

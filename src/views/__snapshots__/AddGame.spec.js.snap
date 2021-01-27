@@ -1,0 +1,514 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`game creation renders with expected HTML structure 1`] = `
+<div
+  class="container"
+>
+  <div
+    class="col-lg-4 offset-lg-4 col-12"
+  >
+    <div
+      class="row text-center"
+    >
+      <div
+        class="mb-4 col"
+      >
+        <h1
+          class="display-1 font-weight-bold mb-3"
+        >
+          
+          Add Game
+        
+        </h1>
+         
+        <form
+          class="v-form"
+          id="create"
+          novalidate="novalidate"
+        >
+          <div
+            class="v-input theme--light v-text-field"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-text-field__slot"
+                >
+                  <label
+                    class="v-label theme--light"
+                    for="input-3"
+                    style="left: 0px; position: absolute;"
+                  >
+                    Name
+                  </label>
+                  <input
+                    data-test="name"
+                    id="input-3"
+                    required="required"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="v-input theme--light v-text-field v-select"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-owns="list-6"
+                class="v-input__slot"
+                role="button"
+              >
+                <div
+                  class="v-select__slot"
+                >
+                  <label
+                    class="v-label theme--light"
+                    for="input-6"
+                    style="left: 0px; position: absolute;"
+                  >
+                    Platform
+                  </label>
+                  <div
+                    class="v-select__selections"
+                  >
+                    <input
+                      aria-readonly="false"
+                      autocomplete="off"
+                      data-test="platform"
+                      id="input-6"
+                      readonly="readonly"
+                      required="required"
+                      type="text"
+                    />
+                  </div>
+                  <div
+                    class="v-input__append-inner"
+                  >
+                    <div
+                      class="v-input__icon v-input__icon--append"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="v-icon notranslate mdi mdi-menu-down theme--light"
+                      />
+                    </div>
+                  </div>
+                  <input
+                    type="hidden"
+                  />
+                </div>
+                <div
+                  class="v-menu"
+                >
+                  <!---->
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="v-input theme--light v-text-field"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-text-field__slot"
+                >
+                  <label
+                    class="v-label theme--light"
+                    for="input-11"
+                    style="left: 0px; position: absolute;"
+                  >
+                    Publisher
+                  </label>
+                  <input
+                    data-test="publisher"
+                    id="input-11"
+                    required="required"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="v-input theme--light v-text-field v-select"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                aria-expanded="false"
+                aria-haspopup="listbox"
+                aria-owns="list-14"
+                class="v-input__slot"
+                role="button"
+              >
+                <div
+                  class="v-select__slot"
+                >
+                  <label
+                    class="v-label theme--light"
+                    for="input-14"
+                    style="left: 0px; position: absolute;"
+                  >
+                    Genre
+                  </label>
+                  <div
+                    class="v-select__selections"
+                  >
+                    <input
+                      aria-readonly="false"
+                      autocomplete="off"
+                      data-test="genre"
+                      id="input-14"
+                      readonly="readonly"
+                      required="required"
+                      type="text"
+                    />
+                  </div>
+                  <div
+                    class="v-input__append-inner"
+                  >
+                    <div
+                      class="v-input__icon v-input__icon--append"
+                    >
+                      <i
+                        aria-hidden="true"
+                        class="v-icon notranslate mdi mdi-menu-down theme--light"
+                      />
+                    </div>
+                  </div>
+                  <input
+                    type="hidden"
+                  />
+                </div>
+                <div
+                  class="v-menu"
+                >
+                  <!---->
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <br />
+           
+          <div
+            class="v-input v-input--is-label-active v-input--is-dirty theme--light v-input__slider"
+          >
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <label
+                  class="v-label theme--light"
+                  for="input-19"
+                  style="left: 0px; position: relative;"
+                >
+                  Number of Players
+                </label>
+                <div
+                  class="v-slider v-slider--horizontal theme--light"
+                >
+                  <input
+                    data-test="numberOfPlayers"
+                    disabled="disabled"
+                    id="input-19"
+                    readonly="readonly"
+                    tabindex="-1"
+                    value="1"
+                  />
+                  <div
+                    class="v-slider__track-container"
+                  >
+                    <div
+                      class="v-slider__track-background primary lighten-3"
+                      style="right: 0px; width: calc(100%);"
+                    />
+                    <div
+                      class="v-slider__track-fill primary"
+                      style="left: 0px; width: 0%;"
+                    />
+                  </div>
+                  <div
+                    aria-label="Number of Players"
+                    aria-orientation="horizontal"
+                    aria-readonly="false"
+                    aria-valuemax="32"
+                    aria-valuemin="1"
+                    aria-valuenow="1"
+                    class="v-slider__thumb-container v-slider__thumb-container--show-label blue--text"
+                    data-test="numberOfPlayers"
+                    role="slider"
+                    style="left: 0%;"
+                    tabindex="0"
+                  >
+                    <div
+                      class="v-slider__thumb blue"
+                    />
+                    <transition-stub
+                      name="scale-transition"
+                    >
+                      <div
+                        class="v-slider__thumb-label-container"
+                      >
+                        <div
+                          class="v-slider__thumb-label blue"
+                          style="height: 18px; width: 18px; transform: translateY(-20%) translateY(-12px) translateX(-50%) rotate(45deg);"
+                        >
+                          <div>
+                            <span>
+                              1
+                            </span>
+                          </div>
+                        </div>
+                      </div>
+                    </transition-stub>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="v-messages theme--light"
+              >
+                <transition-group-stub
+                  class="v-messages__wrapper"
+                  name="message-transition"
+                  tag="div"
+                />
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="v-menu"
+          >
+            <!---->
+          </div>
+          <div
+            class="v-input v-input--is-label-active v-input--is-dirty theme--light v-text-field"
+          >
+            <div
+              class="v-input__prepend-outer"
+            >
+              <div
+                class="v-input__icon v-input__icon--prepend"
+              >
+                <i
+                  aria-hidden="true"
+                  class="v-icon notranslate mdi mdi-calendar theme--light"
+                />
+              </div>
+            </div>
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-text-field__slot"
+                >
+                  <label
+                    class="v-label v-label--active theme--light"
+                    for="input-24"
+                    style="left: 0px; position: absolute;"
+                  >
+                    Release Date
+                  </label>
+                  <input
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    data-test="release-date"
+                    id="input-24"
+                    role="button"
+                    type="text"
+                  />
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <div
+            class="v-input theme--light v-text-field v-file-input"
+          >
+            <div
+              class="v-input__prepend-outer"
+            >
+              <div
+                class="v-input__icon v-input__icon--prepend"
+              >
+                <button
+                  aria-label="prepend icon"
+                  class="v-icon notranslate v-icon--link mdi mdi-camera theme--light"
+                  type="button"
+                />
+              </div>
+            </div>
+            <div
+              class="v-input__control"
+            >
+              <div
+                class="v-input__slot"
+              >
+                <div
+                  class="v-text-field__slot"
+                >
+                  <label
+                    class="v-label theme--light"
+                    for="input-28"
+                    style="left: 0px; position: absolute;"
+                  >
+                    Box Art
+                  </label>
+                  <div
+                    class="v-file-input__text"
+                  />
+                  <input
+                    accept=".jpg,.png"
+                    data-test="box-art"
+                    id="input-28"
+                    type="file"
+                  />
+                </div>
+                <div
+                  class="v-input__append-inner"
+                >
+                  <div
+                    class="v-input__icon v-input__icon--clear"
+                  >
+                    <button
+                      aria-label="clear icon"
+                      class="v-icon notranslate v-icon--disabled v-icon--link mdi mdi-close theme--light"
+                      disabled="disabled"
+                      type="button"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                class="v-text-field__details"
+              >
+                <div
+                  class="v-messages theme--light"
+                >
+                  <transition-group-stub
+                    class="v-messages__wrapper"
+                    name="message-transition"
+                    tag="div"
+                  >
+                    <div
+                      class="v-messages__message"
+                    >
+                      .jpg or .png only
+                    </div>
+                  </transition-group-stub>
+                </div>
+              </div>
+            </div>
+          </div>
+           
+          <br />
+           
+          <button
+            class="v-btn v-btn--is-elevated v-btn--has-bg theme--light v-size--default"
+            id="submit"
+            type="submit"
+          >
+            <span
+              class="v-btn__content"
+            >
+              
+            Submit
+          
+            </span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
