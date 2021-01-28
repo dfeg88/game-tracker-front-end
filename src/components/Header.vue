@@ -20,13 +20,14 @@
 
     <v-spacer></v-spacer>
 
-    <v-btn text>
-      <router-link :to="{name: 'games'}">My Games</router-link>
+    <v-btn plain exact :to="{name: 'games'}">
+     My Games
     </v-btn>
 
-    <v-btn text>
-      <router-link :to="{name: 'create'}">Add Game</router-link>
+    <v-btn plain :to="{name: 'create'}">
+     Add Game
     </v-btn>
+
   </v-app-bar>
 </template>
 
@@ -37,8 +38,5 @@ export default {
 </script>
 
 <style scoped>
-a, a:hover, a:active, a:visited {
-  text-decoration: none;
-  color: white;
-}
+
 </style>
