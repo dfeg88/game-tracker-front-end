@@ -13,50 +13,50 @@ exports[`Header renders expect HTML 1`] = `
   <div
     class="d-flex align-center"
   >
-    <v-img-stub
-      class="shrink mr-2"
-      contain="true"
-      dark="true"
-      options="[object Object]"
-      position="center center"
-      src="../assets/logo.png"
-      transition="scale-transition"
-      width="70"
-    />
+    <router-link-stub
+      ariacurrentvalue="page"
+      event="click"
+      tag="a"
+      to="[object Object]"
+    >
+      <v-img-stub
+        class="shrink mr-2"
+        contain="true"
+        dark="true"
+        options="[object Object]"
+        position="center center"
+        src="../assets/logo.png"
+        transition="scale-transition"
+        width="70"
+      />
+    </router-link-stub>
   </div>
    
   <v-spacer-stub />
    
   <v-btn-stub
     activeclass=""
+    exact="true"
+    plain="true"
     tag="button"
-    text="true"
+    to="[object Object]"
     type="button"
   >
-    <router-link-stub
-      ariacurrentvalue="page"
-      event="click"
-      tag="a"
-      to="[object Object]"
-    >
-      My Games
-    </router-link-stub>
+    
+   My Games
+  
   </v-btn-stub>
    
   <v-btn-stub
     activeclass=""
+    plain="true"
     tag="button"
-    text="true"
+    to="[object Object]"
     type="button"
   >
-    <router-link-stub
-      ariacurrentvalue="page"
-      event="click"
-      tag="a"
-      to="[object Object]"
-    >
-      Add Game
-    </router-link-stub>
+    
+   Add Game
+  
   </v-btn-stub>
 </v-app-bar-stub>
 `;

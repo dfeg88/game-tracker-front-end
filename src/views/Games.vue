@@ -1,10 +1,10 @@
 <template>
   <v-layout row wrap class="ma-3">
-    <v-flex v-if="games.length > 0" xs12 sm6 md4 lg3>
-      <div v-for="(game, i) in games" :key="i">
+    <v-row v-if="games.length > 0">
+      <v-flex v-for="(game, i) in games" :key="i" xs12 sm6 md4 lg3>
         <Game :id="game.name + '-' + game.platform" :game="game"></Game>
-      </div>
-    </v-flex>
+      </v-flex>
+    </v-row>
     <v-flex v-else>
       <v-col xs12 sm6 md4 lg12 class="text-center">
         <p>It looks like you don't have any games..</p>
